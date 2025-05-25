@@ -1,6 +1,7 @@
 # EduBot: Intent-Based Chatbot using TensorFlow and NLTK
 
 EduBot is a simple AI chatbot built with TensorFlow and Natural Language Toolkit (NLTK). It uses pattern matching, word tokenization, and deep learning to classify user inputs into predefined intents and provide appropriate responses.
+Currently, I have used data from Toyota UAE for the chatbot data.
 
 ##  Features
 
