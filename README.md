@@ -2,7 +2,7 @@
 
 EduBot is a simple AI chatbot built with TensorFlow and Natural Language Toolkit (NLTK). It uses pattern matching, word tokenization, and deep learning to classify user inputs into predefined intents and provide appropriate responses.
 
-## 🚀 Features
+##  Features
 
 - Intent classification using a neural network (Keras + TensorFlow)
 - Tokenization and lemmatization using NLTK
@@ -12,7 +12,7 @@ EduBot is a simple AI chatbot built with TensorFlow and Natural Language Toolkit
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 - Python
 - TensorFlow / Keras
@@ -31,7 +31,7 @@ EduBot is a simple AI chatbot built with TensorFlow and Natural Language Toolkit
 
 ---
 
-## 🏗️ How It Works
+##  How It Works
 
 1. **Data Preparation**:
    - Load patterns and tags from `DB.json`.
@@ -61,7 +61,7 @@ EduBot is a simple AI chatbot built with TensorFlow and Natural Language Toolkit
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - Add context tracking to enable multi-turn conversations.
 - Expand the JSON dataset with more intents and patterns.
