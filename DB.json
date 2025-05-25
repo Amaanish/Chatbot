@@ -1,0 +1,667 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "how is it going?"],
+      "responses": ["Welcome to Toyota UAE! Are you looking for a sedan, SUV, truck, or hybrid?", "Hello! Let’s find your perfect Toyota. Do you need a family car, off-roader, or something fuel-efficient?"],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you", "what's your name", "what should I call you?"],
+      "responses": ["I'm ToyotaBot, your guide to Toyota cars in the UAE!"]
+    },
+    {
+      "tag": "toyota_models",
+      "patterns": ["what models does toyota offer?", "list toyota cars", "toyota models in uae", "which toyota cars are available?"],
+      "responses": ["Toyota UAE offers a wide range of models, including the Camry, Corolla, Land Cruiser, Prado, RAV4, Hilux, Fortuner, and Yaris. Are you looking for a sedan, SUV, or pickup?"]
+    },
+    {
+      "tag": "camry_info",
+      "patterns": ["tell me about toyota camry", "camry specs", "camry features", "toyota camry uae"],
+      "responses": ["The Toyota Camry is a premium sedan with advanced safety features, a sleek design, and fuel-efficient engine options. It comes in multiple trims (SE, LE, XSE) with prices starting from AED 95,000 in the UAE. Would you like details on pricing or test drives?"]
+    },
+    {
+      "tag": "landcruiser_info",
+      "patterns": ["land cruiser details", "toyota land cruiser price", "land cruiser off-road features"],
+      "responses": ["The Toyota Land Cruiser is a legendary SUV with robust off-road capabilities, luxury interiors, and a powerful V6 engine. Prices start from AED 220,000 in the UAE. It includes features like Crawl Control and Multi-Terrain Select."]
+    },
+    {
+      "tag": "rav4_info",
+      "patterns": ["rav4 uae", "toyota rav4 hybrid", "rav4 price"],
+      "responses": ["The Toyota RAV4 is a compact SUV with hybrid options, offering great fuel efficiency and modern tech like Apple CarPlay. Prices start from AED 115,000. Would you like to compare it with other SUVs?"]
+    },
+    {
+      "tag": "hilux_info",
+      "patterns": ["toyota hilux specs", "hilux towing capacity", "hilux price uae"],
+      "responses": ["The Toyota Hilux is a durable pickup truck with a towing capacity of up to 3.5 tons. Prices start from AED 98,000. It’s perfect for work or adventure!"]
+    },
+    {
+      "tag": "hybrid_models",
+      "patterns": ["does toyota have hybrid cars?", "toyota hybrid uae", "camry hybrid price"],
+      "responses": ["Yes! Toyota UAE offers hybrids like the Camry Hybrid, Corolla Hybrid, and RAV4 Hybrid. These combine fuel efficiency with performance. The Camry Hybrid starts at AED 110,000."]
+    },
+    {
+      "tag": "test_drive",
+      "patterns": ["how to book a test drive", "test drive toyota uae", "can i test drive a fortuner?"],
+      "responses": ["You can book a test drive online via Toyota UAE’s website or visit a dealership. Would you like help finding the nearest showroom?"]
+    },
+    {
+      "tag": "dealerships",
+      "patterns": ["toyota showrooms in uae", "where to buy toyota in dubai", "nearest toyota dealer"],
+      "responses": ["Toyota has dealerships across the UAE, including Al-Futtaim Toyota in Dubai, Abu Dhabi Motors, and other emirates. Share your location for the nearest one!"]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["toyota corolla price", "how much is a prado?", "fortuner cost"],
+      "responses": ["Here are starting prices (AED):\n- Corolla: 75,000\n- Prado: 150,000\n- Fortuner: 130,000\nPrices vary by trim. Need financing options?"]
+    },
+    {
+      "tag": "maintenance",
+      "patterns": ["toyota service center", "car maintenance cost", "warranty coverage"],
+      "responses": ["Toyota offers a 5-year warranty and affordable service packages. Regular maintenance costs depend on the model. Would you like service center locations?"]
+    },
+    {
+      "tag": "offers",
+      "patterns": ["any toyota discounts?", "promotions on toyota", "year-end sale"],
+      "responses": ["Current offers include low-interest financing, free insurance, and service packages. Visit Toyota UAE’s website for the latest deals!"]
+    },
+    {
+      "tag": "compare",
+      "patterns": ["compare camry and corolla", "rav4 vs fortuner", "which toyota suv is best?"],
+      "responses": ["The Camry is a spacious sedan, while the Corolla is compact. For SUVs, the RAV4 is urban-friendly, and the Fortuner is more rugged. What’s your priority: comfort or off-road use?"]
+    },
+    {
+      "tag": "electric_cars",
+      "patterns": ["does toyota sell electric cars?", "toyota bz4x uae", "ev models"],
+      "responses": ["Toyota’s electric lineup in the UAE includes the bZ4X SUV. It offers a range of ~400 km per charge. Would you like specs or dealership info?"]
+    },
+    {
+      "tag": "end",
+      "patterns": ["thanks", "goodbye", "that's all", "thank you!"],
+      "responses": ["You’re welcome! Visit a Toyota showroom or our website for more. Safe driving!"]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you?", "how's it going?"],
+      "responses": ["I’m here to help you explore Toyota’s amazing cars! What model interests you?"]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["toyota uae contact", "customer service number", "how to reach toyota?"],
+      "responses": ["Call Toyota UAE at 800-TOYOTA (869682) or visit www.toyota.ae. Need a specific department?"]
+    },
+    {
+      "tag": "feature_request",
+      "patterns": ["does corolla have apple carplay?", "safety features in land cruiser"],
+      "responses": ["Yes! Most new Toyotas (like the Corolla) have Apple CarPlay. The Land Cruiser includes Toyota Safety Sense with lane-keeping and adaptive cruise control."]
+    },
+    {
+      "tag": "fuel_efficiency",
+      "patterns": ["which toyota is most fuel-efficient?", "best mileage toyota"],
+      "responses": ["The Corolla Hybrid (up to 28 km/l) and Prius are top choices for fuel efficiency. SUVs like the RAV4 Hybrid also offer great mileage."]
+    },
+    {
+      "tag": "user_preference",
+      "patterns": ["I need a family car", "looking for off-road", "want a luxury car", "budget-friendly options", "best toyota for commuting", "I drive in desert", "need 7-seater"],
+      "responses": [
+        "For **family cars**: Try the  Toyota Highlander</b> (7-seater). It has great safety features.",
+        "For **off-road**: The  Land Cruiser</b> or  Fortuner</b> are perfect for deserts and dunes!",
+        "For **luxury**: The  Crown</b> sedan or  Lexus LX</b> (Toyota’s premium brand) are top-tier.",
+        "For **budget**: The  Yaris</b> (AED 65K) or  Corolla</b> (AED 75K) are affordable and reliable.",
+        "For **commuting**: The  Corolla Hybrid</b> (28 km/l) or  Prius</b> are fuel-sippers.",
+        "For **7-seaters**:  Highlander</b>,  Fortuner</b>, or Prado"
+      ],
+      "context_set": "recommendation"
+    },
+    {
+      "tag": "toyota_sedans",
+      "patterns": ["sedan options", "best toyota sedan", "camry vs corolla"],
+      "responses": [
+        "Toyota Sedans in UAE:\n\n-  Yaris</b> (AED 65K): Compact, great for city driving.\n-  Corolla</b> (AED 75K): Balanced, with hybrid option.\n-  Camry</b> (AED 95K): Spacious, premium features.\n-  Crown</b> (AED 150K): Luxury sedan with hybrid tech.\n\nNeed performance or fuel efficiency?"
+      ]
+    },
+    {
+      "tag": "toyota_suvs",
+      "patterns": ["SUV options", "best toyota suv", "rav4 vs fortuner"],
+      "responses": [
+        "Toyota SUVs in UAE:\n\n-  RAV4</b> (AED 115K): Compact, hybrid available.\n-  Highlander</b> (AED 160K): 7-seater, family-friendly.\n-  Fortuner</b> (AED 130K): Rugged, off-road ready.\n-  Land Cruiser</b> (AED 220K): Legendary off-roader.\n-  Prado</b> (AED 150K): Luxury off-road SUV.\n\nNeed space or off-road capability?"
+      ]
+    },
+    {
+      "tag": "toyota_trucks",
+      "patterns": ["toyota pickup", "hilux vs tacoma", "work truck"],
+      "responses": [
+        "Toyota Trucks in UAE:\n\n-  Hilux</b> (AED 98K): Durable, 3.5T towing.\n-  Tacoma</b> (AED 120K): Midsize, adventure-ready.\n-  Tundra</b> (AED 200K): Full-size, V8 power.\n\nUsing it for work or adventure?"
+      ]
+    },
+    {
+      "tag": "toyota_hybrids",
+      "patterns": ["hybrid cars", "toyota hybrid options", "best fuel-efficient toyota"],
+      "responses": [
+        "Toyota Hybrids in UAE:\n\n-  Corolla Hybrid</b> (AED 85K): 28 km/l.\n-  Camry Hybrid</b> (AED 110K): Smooth ride.\n-  RAV4 Hybrid</b> (AED 135K): SUV efficiency.\n-  Prius</b> (AED 100K): Iconic hybrid.\n-  Sienna Hybrid</b> (AED 170K): 7-seater minivan.\n\nInterested in test driving one?"
+      ]
+    },
+    {
+      "tag": "toyota_electric",
+      "patterns": ["toyota ev", "electric cars uae", "bz4x specs"],
+      "responses": [
+        "Toyota’s Electric Cars:\n\n-  bZ4X</b> (AED 150K): 400 km range, AWD option.\n-  Prius Prime</b> (plug-in hybrid): 50 km electric-only range.\n\nEV charging is available at Toyota dealerships!"
+      ]
+    },
+    {
+      "tag": "model_details",
+      "patterns": ["tell me about [model]", "[model] specs", "[model] features"],
+      "responses": [
+        "Here’s the details for the  {model}</b>:\n\n-  Price</b>: AED {price}\n-  Engine</b>: {engine}\n-  Fuel Efficiency</b>: {mileage}\n-  Key Features</b>: {features}\n\nWould you like to compare it with another model or book a test drive?",
+        "The  {model}</b> is a {type} with {highlights}. Pricing starts at AED {price}. Need financing options?"
+      ],
+      "context_set": "model_specs"
+    },
+    {
+      "tag": "price_inquiry",
+      "patterns": ["how much is [model]?", "[model] price", "cost of [model]"],
+      "responses": [
+        "The  {model}</b> starts at AED {price}. Would you like trim-level details or a brochure?"
+      ]
+    },
+    {
+      "tag": "test_drive",
+      "patterns": ["test drive [model]", "how to drive a [model]", "book a test drive"],
+      "responses": [
+        "You can book a  {model}</b> test drive online (www.toyota.ae) or visit these dealerships:\n- Dubai: Al-Futtaim Toyota\n- Abu Dhabi: Abu Dhabi Motors\n\nShould I share their contact info?"
+      ]
+    },
+    {
+      "tag": "dealerships",
+      "patterns": ["where to buy toyota", "nearest toyota showroom", "toyota dealer uae"],
+      "responses": [
+        "Toyota UAE Dealerships:\n\n-  Dubai</b>: Al-Futtaim Toyota (Sheikh Zayed Rd)\n-  Abu Dhabi</b>: Abu Dhabi Motors\n-  Sharjah</b>: Al-Futtaim Toyota Sharjah\n\nNeed directions or opening hours?"
+      ]
+    },
+    {
+      "tag": "promotions",
+      "patterns": ["any toyota discounts?", "special offers", "year-end sale"],
+      "responses": [
+        "Current Toyota UAE Promotions:\n\n-  0% Financing</b> on Corolla\n-  Free Insurance</b> for Land Cruiser\n-  5-Year Warranty</b> on all models\n\nCheck www.toyota.ae/offers for details!"
+      ]
+    },
+    {
+      "tag": "comparison",
+      "patterns": ["compare [model1] and [model2]", "which is better [model1] or [model2]?"],
+      "responses": [
+        "Comparing  {model1}</b> vs  {model2}</b>:\n\n-  Price</b>: {model1} (AED {price1}) vs {model2} (AED {price2})\n-  Engine</b>: {engine1} vs {engine2}\n-  Best For</b>: {use1} vs {use2}\n\nNeed help deciding?"
+      ]
+    },
+    {
+      "tag": "maintenance",
+      "patterns": ["service cost", "toyota warranty", "spare parts price"],
+      "responses": [
+        "Toyota UAE Services:\n\n-  Warranty</b>: 5-year coverage\n-  Service Cost</b>: ~AED 500–1,500/year\n-  Genuine Parts</b>: Available at all dealerships\n\nWant to book a service appointment?"
+      ]
+    },    {
+      "tag": "sedan_models",
+      "patterns": ["show me sedans", "what sedan models are available", "toyota cars"],
+      "responses": [
+        {
+          "model": "Yaris",
+          "price": "AED 64,900 - 79,900",
+          "engine": "1.5L 4-cylinder",
+          "fuel_efficiency": "18 km/L",
+          "features": ["Apple CarPlay", "LED lights", "Toyota Safety Sense"],
+          "best_for": "Budget buyers, city driving"
+        },
+        {
+          "model": "Corolla",
+          "price": "AED 74,900 - 99,900",
+          "engine": "1.8L 4-cylinder / Hybrid",
+          "fuel_efficiency": "22 km/L (28 km/L Hybrid)",
+          "features": ["Wireless charging", "Adaptive cruise control", "Lane tracing assist"],
+          "best_for": "Commuters, small families"
+        }
+      ]
+    },
+    {
+      "tag": "suv_models",
+      "patterns": ["show me SUVs", "what SUV models are available", "toyota 4x4"],
+      "responses": [
+        {
+          "model": "RAV4",
+          "price": "AED 114,900 - 149,900",
+          "engine": "2.5L 4-cylinder / Hybrid",
+          "fuel_efficiency": "14 km/L (18 km/L Hybrid)",
+          "features": ["AWD available", "360° camera", "Panoramic sunroof"],
+          "best_for": "Urban families, light off-road"
+        },
+        {
+          "model": "Land Cruiser",
+          "price": "AED 219,900 - 389,900",
+          "engine": "3.5L Twin-Turbo V6",
+          "fuel_efficiency": "9 km/L",
+          "features": ["Multi-Terrain Select", "Tank Turn", "10-speed transmission"],
+          "best_for": "Luxury off-roading, desert driving"
+        }
+      ]
+    },
+    {
+      "tag": "truck_models",
+      "patterns": ["show me trucks", "what pickup models are available", "toyota pickup"],
+      "responses": [
+        {
+          "model": "Hilux",
+          "price": "AED 97,900 - 139,900",
+          "engine": "2.8L Turbo Diesel",
+          "fuel_efficiency": "13 km/L",
+          "features": ["3,500kg towing", "Differential lock", "Off-road modes"],
+          "best_for": "Work trucks, desert adventures"
+        },
+        {
+          "model": "Tundra",
+          "price": "AED 199,900 - 259,900",
+          "engine": "3.5L Twin-Turbo V6 Hybrid",
+          "fuel_efficiency": "8 km/L",
+          "features": ["5,800kg towing", "Hybrid MAX (437hp)", "Multi-Terrain Monitor"],
+          "best_for": "Heavy-duty towing, large loads"
+        }
+      ]
+    },
+    {
+      "tag": "hybrid_models",
+      "patterns": ["show me hybrids", "what hybrid models are available", "toyota electric"],
+      "responses": [
+        {
+          "model": "Corolla Hybrid",
+          "price": "AED 84,900 - 99,900",
+          "engine": "1.8L Hybrid",
+          "fuel_efficiency": "28 km/L",
+          "features": ["50% lower emissions", "EV mode", "Regenerative braking"],
+          "best_for": "Eco-conscious drivers, city commuting"
+        },
+        {
+          "model": "RAV4 Hybrid",
+          "price": "AED 134,900 - 154,900",
+          "engine": "2.5L Hybrid",
+          "fuel_efficiency": "18 km/L",
+          "features": ["AWD-i system", "1km EV range", "Trail mode"],
+          "best_for": "Families wanting fuel efficiency"
+        }
+      ]
+    },
+    {
+      "tag": "family_recommendations",
+      "patterns": ["I need a family car", "looking for 7 seater", "best toyota for kids"],
+      "responses": [
+        {
+          "recommendation": "Toyota Highlander",
+          "reason": "Spacious 7-seater with premium features",
+          "price": "AED 159,900 - 199,900",
+          "key_features": ["Ventilated seats", "Panoramic view monitor", "Rear sunshades"]
+        }
+      ]
+    },
+    {
+      "tag": "offroad_recommendations",
+      "patterns": ["best offroad toyota", "desert driving", "dune bashing"],
+      "responses": [
+        {
+          "recommendation": "Land Cruiser",
+          "reason": "Legendary off-road capability",
+          "price": "AED 219,900 - 389,900",
+          "key_features": ["Multi-Terrain Select", "Crawl Control", "Tank Turn"]
+        },
+        {
+          "recommendation": "Fortuner",
+          "reason": "Affordable off-roader",
+          "price": "AED 129,900 - 169,900",
+          "key_features": ["4WD with low-range", "DAC (Downhill Assist)", "Locking rear differential"]
+        }
+      ]
+    },
+    {
+      "tag": "luxury_recommendations",
+      "patterns": ["luxury toyota", "premium features", "high-end model"],
+      "responses": [
+        {
+          "recommendation": "Toyota Crown",
+          "reason": "Flagship luxury sedan",
+          "price": "AED 149,900 - 179,900",
+          "key_features": ["Adaptive suspension", "12.3\" touchscreen", "Advanced safety suite"]
+        },
+        {
+          "recommendation": "Land Cruiser Sahara",
+          "reason": "Ultimate luxury SUV",
+          "price": "AED 389,900",
+          "key_features": ["Semi-aniline leather", "Rear seat entertainment", "4-zone climate control"]
+        }
+      ]
+    },
+    {
+      "tag": "budget_recommendations",
+      "patterns": ["cheapest toyota", "budget options", "affordable models"],
+      "responses": [
+        {
+          "recommendation": "Toyota Yaris",
+          "reason": "Most affordable new Toyota",
+          "price": "AED 64,900",
+          "key_features": ["Fuel efficient", "Compact size", "Basic safety features"]
+        },
+        {
+          "recommendation": "Toyota Corolla",
+          "reason": "Best value sedan",
+          "price": "AED 74,900",
+          "key_features": ["Reliable", "Good resale value", "Comfortable interior"]
+        }
+      ]
+    },
+    {
+      "tag": "test_drive_info",
+      "patterns": ["how to test drive", "book a test drive", "try before buy"],
+      "responses": ["You can book a test drive through our website (www.toyota.ae) or by visiting any of our dealerships across the UAE. Would you like me to provide the nearest location to you?"]
+    },
+    {
+      "tag": "dealership_locations",
+      "patterns": ["where to buy", "nearest showroom", "toyota dealerships"],
+      "responses": ["Toyota has authorized dealerships across all 7 emirates. The main locations are:\n\n- Al-Futtaim Toyota (Dubai, Abu Dhabi, Sharjah)\n- Al-Futtaim Motors (Eastern Emirates)\n\nWould you like specific address details?"]
+    },
+    {
+      "tag": "current_offers",
+      "patterns": ["any promotions", "special deals", "discounts available"],
+      "responses": ["Current Toyota UAE offers include:\n\n- 0% financing on select models\n- Free insurance for Land Cruiser purchases\n- Complimentary 5-year service package\n\nWould you like me to check offers for a specific model?"]
+    },
+    {
+      "tag": "maintenance_info",
+      "patterns": ["service costs", "warranty details", "maintenance packages"],
+      "responses": ["Toyota UAE provides:\n\n- 5-year/150,000km warranty\n- 3-year roadside assistance\n- Service packages from AED 1,500/year\n\nWould you like to book a service appointment?"]
+    },
+    {
+      "tag": "comparison_help",
+      "patterns": ["compare models", "which is better", "help me choose"],
+      "responses": ["I can help you compare up to 3 Toyota models. Please tell me which vehicles you're considering (e.g., 'RAV4 vs Fortuner') and your priorities (space, fuel efficiency, etc.)"]
+    },
+    {
+      "tag": "thank_response",
+      "patterns": ["thanks", "thank you", "appreciate it"],
+      "responses": ["You're welcome! Feel free to ask if you need any more information about Toyota vehicles in the UAE."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later"],
+      "responses": ["Thank you for considering Toyota! Visit www.toyota.ae or your nearest dealership to explore our vehicles. Have a great day!"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Sorry, I didn’t understand that. Could you please rephrase or ask about Toyota models, offers, or services?"]
+    },{
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up?",
+        "How are you?",
+        "Hey there",
+        "Hi there",
+        "Hello Toyota",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I assist you with Toyota UAE today?",
+        "Hi there! What would you like to know about our Toyota services?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you",
+        "Goodbye",
+        "Thanks, bye",
+        "Talk to you later",
+        "Catch you later",
+        "I'm done",
+        "That's all",
+        "Thank you"
+      ],
+      "responses": [
+        "Goodbye! Feel free to return if you have more questions.",
+        "Thanks for visiting Toyota UAE. Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Much appreciated",
+        "Thanks Toyota",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "showroom_locations",
+      "patterns": [
+        "Where are your showrooms?",
+        "Toyota showroom in Dubai?",
+        "Toyota branch near me",
+        "Showroom locations",
+        "Where can I find Toyota UAE?",
+        "Toyota dealership in Sharjah",
+        "Abu Dhabi Toyota showroom",
+        "Toyota near Al Ain",
+        "Nearest showroom",
+        "Any branches in Fujairah?"
+      ],
+      "responses": [
+        "We have Toyota showrooms across the UAE, including Dubai, Abu Dhabi, Sharjah, Ajman, and more. Would you like the address of a specific one?"
+      ]
+    },
+    {
+      "tag": "service_booking",
+      "patterns": [
+        "Book a service",
+        "Schedule maintenance",
+        "Toyota car service booking",
+        "Can I book my car for service?",
+        "Need to service my Toyota",
+        "How to book Toyota servicing?",
+        "Routine maintenance booking",
+        "I want to schedule a service",
+        "Book oil change",
+        "Service center appointment"
+      ],
+      "responses": [
+        "Sure! You can book a service through our online portal or by calling our service center. Would you like the link or number?"
+      ]
+    },
+    {
+      "tag": "test_drive",
+      "patterns": [
+        "Book a test drive",
+        "I want to test drive a Toyota",
+        "Can I try the new Land Cruiser?",
+        "Test drive Corolla",
+        "Schedule a test drive",
+        "How to test drive Camry?",
+        "Want to try the Hilux",
+        "Arrange test drive for RAV4",
+        "Test drive registration",
+        "Drive before buying"
+      ],
+      "responses": [
+        "We\u2019d love for you to experience a Toyota firsthand! You can book a test drive online. Shall I send you the link?"
+      ]
+    },
+    {
+      "tag": "car_prices",
+      "patterns": [
+        "Price of Toyota Corolla",
+        "How much is the Camry?",
+        "Toyota Land Cruiser cost?",
+        "What's the price of a RAV4?",
+        "How much does a Hilux cost?",
+        "Yaris price in UAE",
+        "Price range of Toyota cars",
+        "How much for Prado?",
+        "What\u2019s the cheapest Toyota?",
+        "Car prices in Dubai"
+      ],
+      "responses": [
+        "Our Toyota prices vary by model and specifications. Which model are you interested in?"
+      ]
+    },
+    {
+      "tag": "available_models",
+      "patterns": [
+        "What Toyota models are available?",
+        "Show me your cars",
+        "Available vehicles?",
+        "Toyota lineup 2025",
+        "Cars for sale",
+        "New Toyota models",
+        "What do you have?",
+        "Current inventory",
+        "List of Toyota models",
+        "Which cars do you sell?"
+      ],
+      "responses": [
+        "We offer a wide range of Toyota vehicles including Corolla, Camry, Land Cruiser, RAV4, Hilux, Yaris, and more. Would you like details on a specific one?"
+      ]
+    },
+    {
+      "tag": "offers",
+      "patterns": [
+        "Any offers on cars?",
+        "Current Toyota promotions?",
+        "Deals available?",
+        "Discounts on vehicles?",
+        "Ongoing offers?",
+        "Toyota UAE promotions",
+        "Offers on Land Cruiser?",
+        "Special deals",
+        "Is there a Ramadan offer?",
+        "End of year sale"
+      ],
+      "responses": [
+        "Yes! We often run seasonal promotions. You can check the latest offers on our website. Would you like the link?"
+      ]
+    },
+    {
+      "tag": "service_centers",
+      "patterns": [
+        "Where can I service my Toyota?",
+        "Service centers near me",
+        "Toyota service in Dubai",
+        "Service center in Sharjah",
+        "Car maintenance location",
+        "Where to go for servicing?",
+        "Authorized Toyota service",
+        "Toyota workshop location",
+        "Fix my car",
+        "I need to repair my Toyota"
+      ],
+      "responses": [
+        "We have authorized service centers throughout the UAE. Please let me know your city so I can guide you to the nearest one."
+      ]
+    },
+    {
+      "tag": "spare_parts",
+      "patterns": [
+        "Need genuine Toyota parts",
+        "Where to buy spare parts?",
+        "Toyota replacement parts",
+        "Can I get a new battery?",
+        "Where to find brake pads for Corolla?",
+        "Need parts for Camry",
+        "Order spare parts",
+        "Parts availability",
+        "Toyota accessories",
+        "Original parts for Land Cruiser"
+      ],
+      "responses": [
+        "We provide genuine Toyota parts at our service centers and dealers. Would you like to locate the nearest parts dealer?"
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact you?",
+        "Customer care number?",
+        "Toyota UAE phone number",
+        "Email support?",
+        "Need help contacting Toyota",
+        "Talk to an agent",
+        "Support contact",
+        "How do I reach you?",
+        "Customer service Toyota",
+        "Toyota helpline"
+      ],
+      "responses": [
+        "You can contact us at 800 TOYOTA (800869682) or email us at info@toyotauae.ae. We're happy to help!"
+      ]
+    },
+    {
+      "tag": "finance_options",
+      "patterns": [
+        "Do you have financing?",
+        "Installment plans available?",
+        "Car on EMI?",
+        "Can I buy on loan?",
+        "Toyota car loan UAE",
+        "Monthly payment options",
+        "Finance a Corolla",
+        "How much EMI for Camry?",
+        "Financing details",
+        "Car lease or finance"
+      ],
+      "responses": [
+        "Yes, we offer flexible financing options. Would you like to speak to a finance advisor or see plans online?"
+      ]
+    },
+    {
+      "tag": "insurance_info",
+      "patterns": [
+        "Do you offer car insurance?",
+        "Toyota insurance plans",
+        "Car insurance with purchase?",
+        "What insurance do you offer?",
+        "Is insurance included?",
+        "Vehicle protection plans",
+        "Insurance coverage",
+        "Insure my Toyota",
+        "Toyota insurance UAE",
+        "Add insurance to my car"
+      ],
+      "responses": [
+        "Yes, we offer comprehensive insurance options. Would you like details or a quote?"
+      ]
+    },
+    {
+      "tag": "maintenance_schedule",
+      "patterns": [
+        "When is my next service?",
+        "Toyota service interval",
+        "Maintenance schedule for Corolla",
+        "Service reminder",
+        "When to do oil change?",
+        "Maintenance checklist",
+        "Toyota servicing frequency",
+        "Scheduled maintenance?",
+        "Periodic service info",
+        "How often should I service my Camry?"
+      ],
+      "responses": [
+        "Toyota recommends servicing every 5,000 to 10,000 km, depending on your model. Do you want to check your car's schedule?"
+      ]
+    }
+  ]
+}
