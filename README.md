@@ -71,3 +71,20 @@ Currently, I have used data from Toyota UAE for the chatbot data.
 - Replace bag-of-words with embedding-based models (e.g., Word2Vec or BERT).
 
 ---
+
+
+## Installation:
+Clone the repository:
+
+```bash
+git clone https://github.com/Amaanish/Chatbot.git
+cd Chatbot
+```
+Then install:
+
+```bash
+pip install tensorflow nltk numpy
+```
+Run this in Google Collab or Jupyter
+
+Import the .JSON file into the code directory
